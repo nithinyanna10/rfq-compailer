@@ -1,0 +1,8 @@
+{
+  "name": "Deutsch",
+  "quickstart": "Virtuelle Umgebung erstellen, Abhängigkeiten installieren, .env setzen, PDFs indizieren, Entwurf erzeugen.",
+  "commands": {
+    "index": "python -m src.main index ./data/samples",
+    "draft": "python -m src.main draft --client \"Kunde\" --rfq_title \"RFQ Titel\" --output ./outputs/vorschlag.docx"
+  }
+}

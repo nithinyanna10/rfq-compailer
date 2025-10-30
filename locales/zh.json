@@ -1,0 +1,8 @@
+{
+  "name": "简体中文",
+  "quickstart": "创建虚拟环境，安装依赖，设置 .env，索引 PDF，生成草稿。",
+  "commands": {
+    "index": "python -m src.main index ./data/samples",
+    "draft": "python -m src.main draft --client \"客户\" --rfq_title \"RFQ 标题\" --output ./outputs/提案.docx"
+  }
+}

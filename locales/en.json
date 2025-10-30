@@ -1,0 +1,8 @@
+{
+  "name": "English",
+  "quickstart": "Create venv, install requirements, set .env, index PDFs, draft proposal.",
+  "commands": {
+    "index": "python -m src.main index ./data/samples",
+    "draft": "python -m src.main draft --client \"Client\" --rfq_title \"RFQ Title\" --output ./outputs/proposal.docx"
+  }
+}

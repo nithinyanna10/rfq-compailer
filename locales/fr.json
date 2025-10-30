@@ -1,0 +1,8 @@
+{
+  "name": "Français",
+  "quickstart": "Créez un venv, installez les dépendances, configurez .env, indexez les PDF, générez un brouillon.",
+  "commands": {
+    "index": "python -m src.main index ./data/samples",
+    "draft": "python -m src.main draft --client \"Client\" --rfq_title \"Titre RFQ\" --output ./outputs/proposition.docx"
+  }
+}

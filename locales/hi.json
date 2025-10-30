@@ -1,0 +1,8 @@
+{
+  "name": "हिन्दी",
+  "quickstart": "venv बनाएँ, निर्भरताएँ इंस्टॉल करें, .env सेट करें, PDF इंडेक्स करें, ड्राफ्ट बनाएँ।",
+  "commands": {
+    "index": "python -m src.main index ./data/samples",
+    "draft": "python -m src.main draft --client \"ग्राहक\" --rfq_title \"RFQ शीर्षक\" --output ./outputs/प्रस्ताव.docx"
+  }
+}

@@ -49,3 +49,4 @@ Project Structure
 - src/llm/agent.py (RAG proposal)
 - src/generation/word_export.py (DOCX output)
 # rfq-compailer
+\n\n## Languages\nSupported: English (en), Español (es), Français (fr), Deutsch (de), हिन्दी (hi), 简体中文 (zh).\nSee locale files in `locales/`.\n

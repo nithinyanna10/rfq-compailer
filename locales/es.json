@@ -1,0 +1,8 @@
+{
+  "name": "Español",
+  "quickstart": "Cree venv, instale dependencias, configure .env, indexe PDFs, genere borrador.",
+  "commands": {
+    "index": "python -m src.main index ./data/samples",
+    "draft": "python -m src.main draft --client \"Cliente\" --rfq_title \"Título RFQ\" --output ./outputs/propuesta.docx"
+  }
+}

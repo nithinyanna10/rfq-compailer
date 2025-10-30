@@ -48,5 +48,15 @@ Project Structure
 - src/vectorstore/chroma_store.py (index/search)
 - src/llm/agent.py (RAG proposal)
 - src/generation/word_export.py (DOCX output)
+
+Phase 2: Macro Predictive Agent
+- Script: `src/macro_signal_agent.py`
+- Free stack: feedparser/newspaper3k (news), FinBERT (sentiment), scikit-learn (model), yfinance (yields), Plotly (viz), Gemma via Ollama (LLM insight)
+- Run:
+  - Ensure Ollama with Gemma (optional for commentary)
+  - Install requirements (already listed)
+  - Execute:
+    `python -m src.macro_signal_agent --sources fed,reuters --days 120 --out ./outputs/macro_sentiment.html`
+  - Output: HTML chart (sentiment vs ^TNX), plus printed Gemma commentary
 # rfq-compailer
 \n\n## Languages\nSupported: English (en), Español (es), Français (fr), Deutsch (de), हिन्दी (hi), 简体中文 (zh).\nSee locale files in `locales/`.\n

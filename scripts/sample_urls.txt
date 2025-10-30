@@ -1,0 +1,4 @@
+# Add public RFQ/RFP URLs here (PDF links)
+# Example placeholders (replace with real ones):
+# https://www.examplecity.gov/procurement/rfq_bonds_2024.pdf
+# https://emma.msrb.org/Example/Attachment.pdf
